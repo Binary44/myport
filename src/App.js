@@ -1,9 +1,21 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import Defipay from "./components/Pages/Defipay";
+import Defimooves from "./components/Pages/Defimooves";
+import Deficonect from "./components/Pages/Deficonect";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/defipay" element={<Defipay />} />
+        <Route path="/defimooves" element={<Defimooves />} />
+        <Route path="/deficonnect" element={<Deficonect />} />
+      </Routes>
     </div>
   );
 }

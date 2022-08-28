@@ -1,0 +1,33 @@
+.hero{
+    color: #ffff;
+    padding: 15rem 0px;
+    top: 10rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.hero a{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.hero a:hover{
+    background-color: #ffc107;
+}

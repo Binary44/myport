@@ -10,6 +10,8 @@ const Home = () => {
         for all DefiConnet Updates.
       </p>
       <a href="https://deficonnect.tech/markets">Buy DFC</a>
+      <div>
+      </div>
       </div>
   );
 };

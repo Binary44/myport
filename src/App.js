@@ -5,6 +5,7 @@ import Home from "./components/Pages/Home";
 import Defipay from "./components/Pages/Defipay";
 import Defimooves from "./components/Pages/Defimooves";
 import Deficonect from "./components/Pages/Deficonect";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/defimooves" element={<Defimooves />} />
         <Route path="/deficonnect" element={<Deficonect />} />
       </Routes>
+      <Card />
     </div>
   );
 }

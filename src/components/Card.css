@@ -1,0 +1,40 @@
+.cover {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    
+  }
+
+  .card{
+    color: #fff;
+    background-color: #31377d;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 70px;
+  }
+
+  div.gal {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    float: left;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    text-align: center;
+  }
+  
+  div.gal:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gal img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.dec {
+    padding: 20px 30px;
+    text-align: center;
+  }
